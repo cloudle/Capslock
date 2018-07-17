@@ -42,7 +42,7 @@
       "manipulators": [
         {
           "from": {
-            "key_code": "h",
+            "key_code": "j",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -65,7 +65,7 @@
         },
         {
           "from": {
-            "key_code": "h",
+            "key_code": "j",
             "modifiers": {
               "mandatory": [
                 "left_option",
@@ -87,7 +87,7 @@
         },
         {
           "from": {
-            "key_code": "h",
+            "key_code": "j",
             "modifiers": {
               "mandatory": [
                 "left_control",
@@ -110,7 +110,7 @@
         },
         {
           "from": {
-            "key_code": "h",
+            "key_code": "j",
             "modifiers": {
               "mandatory": [
                 "left_shift",
@@ -134,7 +134,7 @@
         },
         {
           "from": {
-            "key_code": "h",
+            "key_code": "j",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -153,7 +153,7 @@
         },
         {
           "from": {
-            "key_code": "j",
+            "key_code": "k",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -176,7 +176,7 @@
         },
         {
           "from": {
-            "key_code": "j",
+            "key_code": "k",
             "modifiers": {
               "mandatory": [
                 "left_option",
@@ -198,7 +198,7 @@
         },
         {
           "from": {
-            "key_code": "j",
+            "key_code": "k",
             "modifiers": {
               "mandatory": [
                 "left_control",
@@ -221,7 +221,7 @@
         },
         {
           "from": {
-            "key_code": "j",
+            "key_code": "k",
             "modifiers": {
               "mandatory": [
                 "left_shift",
@@ -244,7 +244,7 @@
         },
         {
           "from": {
-            "key_code": "j",
+            "key_code": "k",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -263,7 +263,7 @@
         },
         {
           "from": {
-            "key_code": "k",
+            "key_code": "i",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -286,7 +286,7 @@
         },
         {
           "from": {
-            "key_code": "k",
+            "key_code": "i",
             "modifiers": {
               "mandatory": [
                 "left_option",
@@ -308,7 +308,7 @@
         },
         {
           "from": {
-            "key_code": "k",
+            "key_code": "i",
             "modifiers": {
               "mandatory": [
                 "left_control",
@@ -331,7 +331,7 @@
         },
         {
           "from": {
-            "key_code": "k",
+            "key_code": "i",
             "modifiers": {
               "mandatory": [
                 "left_shift",
@@ -355,7 +355,7 @@
         },
         {
           "from": {
-            "key_code": "k",
+            "key_code": "i",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -484,7 +484,7 @@
         },
         {
           "from": {
-            "key_code": "u",
+            "key_code": "y",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -507,7 +507,7 @@
         },
         {
           "from": {
-            "key_code": "u",
+            "key_code": "y",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -526,7 +526,7 @@
         },
         {
           "from": {
-            "key_code": "i",
+            "key_code": "u",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -549,7 +549,7 @@
         },
         {
           "from": {
-            "key_code": "i",
+            "key_code": "u",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -1033,6 +1033,28 @@
         },
         {
           "from": {
+            "key_code": "t",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "t",
+              "modifiers": [
+                "left_command"
+              ]
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
             "key_code": "a",
             "modifiers": {
               "mandatory": [
@@ -1115,7 +1137,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Dictionary'"
+              "key_code": "f11"
             }
           ],
           "type": "basic"
@@ -1251,7 +1273,7 @@
             {
               "key_code": "d",
               "modifiers": [
-                "left_control"
+                "left_command"
               ]
             }
           ],
@@ -1356,44 +1378,6 @@
           "to": [
             {
               "shell_command": "open -a 'Typora'"
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "from": {
-            "key_code": "t",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Visual Studio Code'"
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "from": {
-            "key_code": "y",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a 'Siri'"
             }
           ],
           "type": "basic"

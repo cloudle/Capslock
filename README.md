@@ -42,12 +42,7 @@
 
 ```bash
 # This Repo (open in safari)
-karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/Vonng/Capslock/master/mac/capslock.json
-```
-
-```bash
-# Karabiner-Elements Offical Script Gallery
-karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs.org%2Fosx%2Fkarabiner%2Fcomplex_modifications%2Fjson%2Fcaps_lock_enhancement.json
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/cloudle/Capslock/master/mac/capslock.json
 ```
 
 3. Open Karabiner, Tab "ComplexModification", Button "Add Item", and enable entries you like.
@@ -80,25 +75,25 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
 | Origin | Maps to        | Comment                  |
 | ------ | -------------- | ------------------------ |
-| `H`    | `←` LeftArrow  | cursor left              |
-| `J`    | `↓` DownArrow  | cursor down              |
-| `K`    | `↑` UpArrow    | cursor up                |
+| `J`    | `←` LeftArrow  | cursor left              |
+| `K`    | `↓` DownArrow  | cursor down              |
+| `I`    | `↑` UpArrow    | cursor up                |
 | `L`    | `→` RightArrow | cursor right             |
-| `U`    | `⇞` PageUp     | cursor page up           |
-| `I`    | `↖` Home       | cursor to line(doc) head |
+| `Y`    | `⇞` PageUp     | cursor page up           |
+| `U`    | `↖` Home       | cursor to line(doc) head |
 | `O`    | `↘`  End       | cursor to line(doc) end  |
 | `P`    | `⇟` PageDn     | cursor page down         |
-| `⌘H`    | `⇧←` LeftArrow  | cursor left and selection         |
-| `⌘J`    | `⇧↓` DownArrow  | cursor down and selection         |
-| `⌘K`    | `⇧↑` UpArrow    | cursor up and selection         |
+| `⌘J`    | `⇧←` LeftArrow  | cursor left and selection         |
+| `⌘K`    | `⇧↓` DownArrow  | cursor down and selection         |
+| `⌘I`    | `⇧↑` UpArrow    | cursor up and selection         |
 | `⌘L`    | `⇧→` RightArrow | cursor right and selection         |
-| `⌥H`    | `←` LeftArrow  | mouse left              |
-| `⌥J`    | `↓` DownArrow  | mouse down              |
-| `⌥K`    | `↑` UpArrow    | mouse up                |
+| `⌥J`    | `←` LeftArrow  | mouse left              |
+| `⌥K`    | `↓` DownArrow  | mouse down              |
+| `⌥I`    | `↑` UpArrow    | mouse up                |
 | `⌥L`    | `→` RightArrow | mouse right             |
-| `⌃H`    | `←` LeftArrow  | expose all              |
-| `⌃J`    | `↓` DownArrow  | show desktops              |
-| `⌃K`    | `↑` UpArrow    | switch prev desktop               |
+| `⌃J`    | `←` LeftArrow  | expose all              |
+| `⌃K`    | `↓` DownArrow  | show desktops              |
+| `⌃I`    | `↑` UpArrow    | switch prev desktop               |
 | `⌃L`    | `→` RightArrow | switch next desktop        |
 
 
@@ -135,6 +130,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `⌘⇥` Command+Tab | `⌘⇧⇥` Command+Shift+Tab | Switch Window Reversely                  |
 | `Q`              | `⌘Q`                    | Close Window                             |
 | `W`              | `⌘W`                    | Close Tab                                |
+| `T`              | `⌘T`                    | New Tab                               |
 | `A`              | `⌃⌥⇧⌘A`                 | Leaves to [Moom](https://manytricks.com/moom/), ※a window resize app |
 | `⌘A`             | `⌃↑`  Ctrl+UpArrow      | OSX Expose All                           |
 | `S`              | `⌃⇥`  Ctrl+Tab          | Switch Tab                               |
@@ -166,7 +162,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `⌘R`   | Open Preview            | Switch to opened picture, pdf, etc...           |
 | `T`    | Open Visual Studio Code | Text Editor: Visual Studio Code                 |
 | `⌘T`   | Open Typora             | Text Editor: Typora , a great WYSIWYG md editor |
-| `⌘D` | Open Dictionary | Find words |
+| `D` | Duplicate                   | Text Editor: Duplicate line |
 | `⌘F`   | Open Dash               | Find API Document                               |
 | `F` | Open Alfred | Leaves to `⌃⌥⇧⌘F` |
 | `⌘D`  | Open Dictionary         | Find words                                      |
