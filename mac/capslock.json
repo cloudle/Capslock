@@ -1112,6 +1112,25 @@
             "key_code": "a",
             "modifiers": {
               "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f11"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [
                 "left_command",
                 "right_command",
                 "right_control",
@@ -1122,9 +1141,9 @@
           },
           "to": [
             {
-              "key_code": "up_arrow",
+              "key_code": "f4",
               "modifiers": [
-                "left_control"
+                "fn"
               ]
             }
           ],
@@ -1192,9 +1211,9 @@
           "to": [
             {
               "key_code": "f11",
-							"modifiers": [
-								"fn"
-							]
+              "modifiers": [
+                "fn"
+              ]
             }
           ],
           "type": "basic"

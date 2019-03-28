@@ -9,7 +9,7 @@ watcher.on('all', (event, filename) => {
 		const dest = '/Users/cloudle/.config/karabiner/assets/complex_modifications/capslock.json';
 		fs.copyFile('./mac/capslock.json', dest, (err) => {
 			if (err) console.log(err);
-			else console.log('successfully copy capslock.json to karabiner!')
+			else console.log('successfully copy capslock.json to karabiner!');
 		});
 	}
 });
