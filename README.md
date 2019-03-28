@@ -73,28 +73,34 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 - Hold additional `⇧` with `HJKL` for **switching tab/app**
 - Hold additional `⌃`  with `HJKL`  for **desktop management** . (just like holding ⌃ctrl with arrow key)
 
-| Origin | Maps to        | Comment                  |
-| ------ | -------------- | ------------------------ |
-| `J`    | `←` LeftArrow  | cursor left              |
-| `K`    | `↓` DownArrow  | cursor down              |
-| `I`    | `↑` UpArrow    | cursor up                |
-| `L`    | `→` RightArrow | cursor right             |
-| `Y`    | `⇞` PageUp     | cursor page up           |
-| `U`    | `↖` Home       | cursor to line(doc) head |
-| `O`    | `↘`  End       | cursor to line(doc) end  |
-| `P`    | `⇟` PageDn     | cursor page down         |
-| `⌘J`    | `⇧←` LeftArrow  | cursor left and selection         |
-| `⌘K`    | `⇧↓` DownArrow  | cursor down and selection         |
-| `⌘I`    | `⇧↑` UpArrow    | cursor up and selection         |
-| `⌘L`    | `⇧→` RightArrow | cursor right and selection         |
-| `⌥J`    | `←` LeftArrow  | mouse left              |
-| `⌥K`    | `↓` DownArrow  | mouse down              |
-| `⌥I`    | `↑` UpArrow    | mouse up                |
-| `⌥L`    | `→` RightArrow | mouse right             |
-| `⌃J`    | `←` LeftArrow  | expose all              |
-| `⌃K`    | `↓` DownArrow  | show desktops              |
-| `⌃I`    | `↑` UpArrow    | switch prev desktop               |
-| `⌃L`    | `→` RightArrow | switch next desktop        |
+| Origin        | Maps to                                |     Comment |
+| ------------ | ------------------------------------ | ------------ |
+| `J`           | `←` LeftArrow                         | cursor left |
+| `⇧J`         | `⌥←` Option + LeftArrow              | cursor left one word |
+| `K`           | `↓` DownArrow                          | cursor down |
+| `I`           | `↑` UpArrow                            | cursor up |
+| `L`           | `→` RightArrow                         | cursor right |
+| `⇧L`         | `⌥→` Option + RightArrow              | cursor right one word |
+| `Y`           | `⇞` PageUp                             | cursor page up |
+| `U`           | `⌘←` Command + LeftArrow             | cursor to line head |
+| `⇧U`         | `⌃⇧⇥` Ctrl + Shit + Tab             | Switch Tab Reversely |
+| `⌘U`         | `⌘⇧←` Command + Shift + LeftArrow   | cursor to line head and selection |
+| `O`           | `⌘→`  Command + RightArrow            | cursor to line end |
+| `⇧O`         | `⌃⇥`  Ctrl + Tab                     | Switch Tab |
+| `⌘O`         | `⌘⇧→`  Command + Shift + RightArrow  | cursor to line end and selection |
+| `P`           | `⇟` PageDn                            | cursor page down |
+| `⌘J`         | `⇧←` LeftArrow                       | cursor left and selection |
+| `⌘K`         | `⇧↓` DownArrow                        | cursor down and selection |
+| `⌘I`         | `⇧↑` UpArrow                          | cursor up and selection |
+| `⌘L`         | `⇧→` RightArrow                       | cursor right and selection |
+| `⌥J`         | `←` LeftArrow                         | mouse left |
+| `⌥K`         | `↓` DownArrow                          | mouse down |
+| `⌥I`         | `↑` UpArrow                            | mouse up |
+| `⌥L`         | `→` RightArrow                         | mouse right |
+| `⌃J`         | `←` LeftArrow                         | expose all |
+| `⌃K`         | `↓` DownArrow                          | show desktops |
+| `⌃I`         | `↑` UpArrow                            | switch prev desktop |
+| `⌃L`         | `→` RightArrow                         | switch next desktop |
 
 
 
@@ -132,9 +138,9 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 | `W`              | `⌘W`                    | Close Tab                                |
 | `T`              | `⌘T`                    | New Tab                               |
 | `A`              | `⌃⌥⇧⌘A`                 | Leaves to [Moom](https://manytricks.com/moom/), ※a window resize app |
-| `⌘A`             | `⌃↑`  Ctrl+UpArrow      | OSX Expose All                           |
+| `⌘A`             | `fnF4`  Fn+F4            | Launchpad                           |
 | `S`              | `⌃⇥`  Ctrl+Tab          | Switch Tab                               |
-| `⌘S`             | `⌃⇧⇥` Ctrl+Shift+Tab    | Swtich Tab Reversely                     |
+| `⌘S`             | `⌃⇧⇥` Ctrl+Shift+Tab    | Switch Tab Reversely                     |
 | `⌘D`             | `F11`                   | Show Desktop                             |
 
 ### Bash Control
