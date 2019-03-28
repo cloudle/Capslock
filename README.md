@@ -137,6 +137,7 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 | `Q`              | `⌘Q`                    | Close Window                             |
 | `W`              | `⌘W`                    | Close Tab                                |
 | `T`              | `⌘T`                    | New Tab                               |
+| `⇧T`              | `⌘⇧T`                    | Reopen Closed Tab                               |
 | `A`              | `⌃⌥⇧⌘A`                 | Leaves to [Moom](https://manytricks.com/moom/), ※a window resize app |
 | `⌘A`             | `fnF4`  Fn+F4            | Launchpad                           |
 | `S`              | `⌃⇥`  Ctrl+Tab          | Switch Tab                               |
