@@ -1210,10 +1210,7 @@
           },
           "to": [
             {
-              "key_code": "f11",
-              "modifiers": [
-                "fn"
-              ]
+              "key_code": "f11"
             }
           ],
           "type": "basic"
