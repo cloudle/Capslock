@@ -93,6 +93,21 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `⌃L`   | `→` RightArrow  | switch next desktop        |
 
 
+### Numpad
+- Emulate numpad
+
+| Origin | Maps to    |
+| ------ | ---------- |
+| `⌘⇧/`    | `0` |
+| `⌘⇧M`    | `1` |
+| `⌘⇧,`    | `2` |
+| `⌘⇧.`    | `3` |
+| `⌘⇧J`    | `4` |
+| `⌘⇧K`    | `5` |
+| `⌘⇧L`    | `6` |
+| `⌘⇧U`    | `7` |
+| `⌘⇧I`    | `8` |
+| `⌘⇧O`    | `9` |
 
 ### Mousekey
 
