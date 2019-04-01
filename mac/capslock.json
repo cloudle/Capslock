@@ -2332,7 +2332,10 @@
           },
           "to": [
             {
-              "key_code": "equal_sign"
+              "key_code": "equal_sign",
+							"modifiers": [
+								"left_shift"
+							]
             }
           ],
           "type": "basic"
@@ -2355,8 +2358,92 @@
             }
           ],
           "type": "basic"
-        }
-      ]
+        },
+				{
+					"from": {
+						"key_code": "n",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_shift",
+								"right_option"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "hyphen",
+							"modifiers": [
+								"left_shift"
+							]
+						}
+					],
+					"type": "basic"
+				},
+				{
+					"from": {
+						"key_code": "n",
+						"modifiers": {
+							"mandatory": [
+								"left_command",
+								"right_command",
+								"right_control",
+								"right_shift",
+								"right_option"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "hyphen"
+						}
+					],
+					"type": "basic"
+				},
+				{
+					"from": {
+						"key_code": "m",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_shift",
+								"right_option"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "backslash",
+							"modifiers": [
+								"left_shift"
+							]
+						}
+					],
+					"type": "basic"
+				},
+				{
+					"from": {
+						"key_code": "m",
+						"modifiers": {
+							"mandatory": [
+								"left_command",
+								"right_command",
+								"right_control",
+								"right_shift",
+								"right_option"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "backslash"
+						}
+					],
+					"type": "basic"
+				}
+			]
     },
     {
       "description": "Hyper Misc (Check https://github.com/Vonng/Capslock for all details)",

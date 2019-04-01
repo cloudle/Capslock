@@ -112,11 +112,11 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 
 | Origin    | Maps to                            | Comment             |
 | --------- | ---------------------------------- | ------------------- |
-| `N`       | `⌥⌫`  Option + ForwardDelete       | Delete a word ahead |
-| `M`       | `⌫` ForwardDelete                  | Delete a char ahead |
-| `,`       | `⌦` Delete                         | Delete a char after |
-| `.`       | `⌥⌦` Option + Delete               | Delete a word after |
-| `⌘M`,`⌘N` | `⌘⌥⌫` Command+Option+ForwardDelete | Delete to line head |
+| `H`       | `⌫` ForwardDelete                  | Delete a char ahead |
+| `⌘H`       | `⌥⌫`  Option + ForwardDelete       | Delete a word ahead |
+| `⇧H`       | `⌘⌫`  Command + ForwardDelete       | Delete to line head |
+| `;`       | `⌦` Delete                         | Delete a char after |
+| `⌘;`       | `⌥⌦` Option + Delete               | Delete a word after |
 
 ### Window Control
 
@@ -215,12 +215,16 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `0`                | `)`     | Right Round Bracket      |
 | `-` Minus          | `_`     | Hyphen                   |
 | `=` Equal          | `+`     | Plus                     |
-| `[` Left Bracket   | `(`     | Left Round Bracket `⇧9`  |
-| `]`  Right Bracket | `)`     | Right Round Bracket `⇧0` |
+| `[` Left Bracket   | `(`     | Left Round Bracket `⇧9` |
+| `]`  Right Bracket | `)`     | Right Round Bracket `⇧0`|
 | `;` Semicolon      | `!`     | Exclamation              |
 | `'` Single Quote   | `=`     | EqualSign                |
-| `⌘;` Semicolon     | `!`     | Colon                    |
-| `⌘'` Single Quote  | `=`     | EqualSign                |
+| `⌘'` Single Quote | `+`     | Plus                     |
+| `⌘;` Semicolon    | `!`     | Colon                    |
+| `N`                | `_`     | Hyphen                   |
+| `⌘N`              | `-`     | Minus                    |
+| `M`                | `|`     | Pipe                     |
+| `⌘M`              | `\`     | Backslash                |
 
 ### Misc
 
