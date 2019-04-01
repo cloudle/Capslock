@@ -92,22 +92,28 @@ karabiner://karabiner/assets/complex_modifications/import?url=https%3A%2F%2Fpqrs
 | `⌃K`   | `↑` UpArrow     | switch prev desktop        |
 | `⌃L`   | `→` RightArrow  | switch next desktop        |
 
-
 ### Numpad
 - Emulate numpad
 
 | Origin | Maps to    |
 | ------ | ---------- |
-| `⌘⇧/`    | `0` |
-| `⌘⇧M`    | `1` |
-| `⌘⇧,`    | `2` |
-| `⌘⇧.`    | `3` |
-| `⌘⇧J`    | `4` |
-| `⌘⇧K`    | `5` |
-| `⌘⇧L`    | `6` |
-| `⌘⇧U`    | `7` |
-| `⌘⇧I`    | `8` |
-| `⌘⇧O`    | `9` |
+| `⌘⇧m`    | `0` |
+| `⌘⇧,`    | `,` Comma |
+| `⌘⇧.`    | `.` Period |
+| `⌘⇧'`    | `+` Plus |
+| `⌘⇧n`    | `-` Minus |
+| `⌘⇧/`    | `*` Multiply |
+| `⌘/`      | `*` Multiply - to sync with `⌘n` -> `-`, `⌘'` -> `+` |
+| `⌘⇧J`    | `1` |
+| `⌘⇧K`    | `2` |
+| `⌘⇧L`    | `3` |
+| `⌘⇧U`    | `4` |
+| `⌘⇧I`    | `5` |
+| `⌘⇧O`    | `6` |
+| `⌘⇧7`    | `7` |
+| `⌘⇧8`    | `8` |
+| `⌘⇧9`    | `9` |
+| `⌘⇧H`    | `⌫`  ForwardDelete |
 
 ### Mousekey
 
