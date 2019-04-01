@@ -884,7 +884,7 @@
         },
         {
           "from": {
-            "key_code": "m",
+            "key_code": "h",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -899,7 +899,7 @@
             {
               "key_code": "delete_or_backspace",
               "modifiers": [
-                "left_command"
+                "left_option"
               ]
             }
           ],
@@ -907,7 +907,7 @@
         },
         {
           "from": {
-            "key_code": "m",
+            "key_code": "h",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -920,6 +920,48 @@
           "to": [
             {
               "key_code": "delete_or_backspace"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward",
+              "modifiers": [
+                "left_option"
+              ]
             }
           ],
           "type": "basic"
@@ -2313,28 +2355,6 @@
           "to": [
             {
               "key_code": "equal_sign"
-            }
-          ],
-          "type": "basic"
-        },
-        {
-          "from": {
-            "key_code": "semicolon",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "1",
-              "modifiers": [
-                "left_shift"
-              ]
             }
           ],
           "type": "basic"
