@@ -89,10 +89,12 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 | `⇧O`         | `⌃⇥`  Ctrl + Tab                     | Switch Tab |
 | `⌘O`         | `⌘⇧→`  Command + Shift + RightArrow  | cursor to line end and selection |
 | `P`           | `⇟` PageDn                            | cursor page down |
-| `⌘J`         | `⇧←` LeftArrow                       | cursor left and selection |
-| `⌘K`         | `⇧↓` DownArrow                        | cursor down and selection |
-| `⌘I`         | `⇧↑` UpArrow                          | cursor up and selection |
-| `⌘L`         | `⇧→` RightArrow                       | cursor right and selection |
+| `⌘J`         | `⇧←` Shift + LeftArrow               | cursor left and selection |
+| `⌘⇧J`       | `⌥⇧←` Option + Shift + LeftArrow    | cursor left one word and selection |
+| `⌘K`         | `⇧↓` Shift + DownArrow                | cursor down and selection |
+| `⌘I`         | `⇧↑` UpArrow + UpArrow                | cursor up and selection |
+| `⌘L`         | `⇧→` Shift + RightArrow               | cursor right and selection |
+| `⌘⇧L`       | `⌥⇧→` Option + Shift + RightArrow    | cursor right one word and selection |
 | `⌥J`         | `←` LeftArrow                         | mouse left |
 | `⌥K`         | `↓` DownArrow                          | mouse down |
 | `⌥I`         | `↑` UpArrow                            | mouse up |
@@ -107,23 +109,23 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 
 | Origin | Maps to    |
 | ------ | ---------- |
-| `⌘⇧m`    | `0` |
-| `⌘⇧,`    | `,` Comma |
-| `⌘⇧.`    | `.` Period |
-| `⌘⇧'`    | `+` Plus |
-| `⌘⇧n`    | `-` Minus |
-| `⌘⇧/`    | `*` Multiply |
-| `⌘/`      | `*` Multiply - to sync with `⌘n` -> `-`, `⌘'` -> `+` |
-| `⌘⇧J`    | `1` |
-| `⌘⇧K`    | `2` |
-| `⌘⇧L`    | `3` |
-| `⌘⇧U`    | `4` |
-| `⌘⇧I`    | `5` |
-| `⌘⇧O`    | `6` |
-| `⌘⇧7`    | `7` |
-| `⌘⇧8`    | `8` |
-| `⌘⇧9`    | `9` |
-| `⌘⇧H`    | `⌫`  ForwardDelete |
+| `⌥m`    | `0` |
+| `⌥,`    | `,` Comma |
+| `⌥.`    | `.` Period |
+| `⌥'`    | `+` Plus |
+| `⌥n`    | `-` Minus |
+| `⌥/`    | `*` Multiply |
+| `⌘/`    | `*` Multiply - to sync with `⌘n` -> `-`, `⌘'` -> `+` |
+| `⌥J`    | `1` |
+| `⌥K`    | `2` |
+| `⌥L`    | `3` |
+| `⌥U`    | `4` |
+| `⌥I`    | `5` |
+| `⌥O`    | `6` |
+| `⌥7`    | `7` |
+| `⌥8`    | `8` |
+| `⌥9`    | `9` |
+| `⌥H`    | `⌫`  ForwardDelete |
 
 ### Mousekey
 
