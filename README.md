@@ -182,13 +182,12 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 
 - Maybe you'd like overwrite these with your own favorite apps.
 
-| Origin | Maps to                 | Comment                                         |
-| ------ | ----------------------- | ----------------------------------------------- |
-| `E`              | Open Safari             | Open Web Browser                         |
-| `⌘E`             | Open Finder             | Open File Browser                        |
-| `R`    | Open iTerm2             | Great terminal for osx (`Run`)                  |
+| Origin | Maps to                  | Comment                                         |
+| ------ | ---------------------- | ----------------------------------------------- |
+| `E`    | Open Commander One       | Great file File Browser for macos         |
+| `⌘E`  | Open Safari              | Open Safari                               |
+| `R`    | Open Hyper               | Great cross-platform terminal (`Run`)             |
 | `⌘R`   | Open Preview            | Switch to opened picture, pdf, etc...           |
-| `T`    | Open Visual Studio Code | Text Editor: Visual Studio Code                 |
 | `⌘T`   | Open Typora             | Text Editor: Typora , a great WYSIWYG md editor |
 | `D` | Duplicate                   | Text Editor: Duplicate line |
 | `⌘F`   | Open Dash               | Find API Document                               |

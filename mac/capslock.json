@@ -1786,7 +1786,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'finder'"
+              "shell_command": "open -a 'Safari'"
             }
           ],
           "type": "basic"
@@ -1805,7 +1805,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'Safari'"
+              "shell_command": "open -a 'Commander One'"
             }
           ],
           "type": "basic"
@@ -1844,7 +1844,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a 'iTerm'"
+              "shell_command": "open -a 'Hyper'"
             }
           ],
           "type": "basic"
