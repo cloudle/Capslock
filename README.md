@@ -109,13 +109,12 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 
 | Origin | Maps to    |
 | ------ | ---------- |
-| `⌥m`    | `0` |
 | `⌥,`    | `,` Comma |
 | `⌥.`    | `.` Period |
 | `⌥'`    | `+` Plus |
-| `⌥n`    | `-` Minus |
-| `⌥/`    | `*` Multiply |
-| `⌘/`    | `*` Multiply - to sync with `⌘n` -> `-`, `⌘'` -> `+` |
+| `⌥;`    | `*` Multiply |
+| `⌥/`    | `/` Divide |
+| `⌥H`    | `0` |
 | `⌥J`    | `1` |
 | `⌥K`    | `2` |
 | `⌥L`    | `3` |
@@ -125,7 +124,6 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 | `⌥7`    | `7` |
 | `⌥8`    | `8` |
 | `⌥9`    | `9` |
-| `⌥H`    | `⌫`  ForwardDelete |
 
 ### Mousekey
 
@@ -145,11 +143,11 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 
 | Origin    | Maps to                            | Comment             |
 | --------- | ---------------------------------- | ------------------- |
-| `H`       | `⌫` ForwardDelete                  | Delete a char ahead |
-| `⌘H`       | `⌥⌫`  Option + ForwardDelete       | Delete a word ahead |
-| `⇧H`       | `⌘⌫`  Command + ForwardDelete       | Delete to line head |
-| `;`       | `⌦` Delete                         | Delete a char after |
-| `⌘;`       | `⌥⌦` Option + Delete               | Delete a word after |
+| `M`       | `⌫` ForwardDelete                  | Delete a char ahead |
+| `N`       | `⌥⌫`  Option + ForwardDelete       | Delete a word ahead |
+| `⇧N`       | `⌘⌫`  Command + ForwardDelete       | Delete to line head |
+| `,`       | `⌦` Delete                         | Delete a char after |
+| `.`       | `⌥⌦` Option + Delete               | Delete a word after |
 
 ### Window Control
 
@@ -272,7 +270,13 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://raw.github
 | `\` Backslash          | `⌘/` Command+Slash  | Comment/Uncomment in many IDE                  |
 | `␢` Spacebar           | `⌃␢`  Ctrl+Spacebar | Switch Input Source                            |
 
+### Developer
 
+| Origin             | Maps to | Comment                  |
+| ------------------ | ------- | ------------------------ |
+| `H`              | `-`    |                |
+| `⌘H`             | `_`    |                |
+| `L`              | `*`    |                |
 
 ## Symbol Reference
 
